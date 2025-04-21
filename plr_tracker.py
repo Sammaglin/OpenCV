@@ -8,7 +8,7 @@ import tkinter as tk
 
 def init_player():
     mixer.init()
-    song_folder = r"D:/Virtual_PY/song/"
+    song_folder = # Song Directory on your machine
     playlist = [os.path.join(song_folder, song) for song in os.listdir(song_folder) if song.endswith(".mp3")]
     return playlist, 0
 
