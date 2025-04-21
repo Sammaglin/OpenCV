@@ -96,7 +96,7 @@ def gesture_controlled_player():
     while not cap.isOpened():
         time.sleep(0.1)
 
-    window.update()  # Ensure window is shown
+    window.update()
     play_song(playlist, current_song_index)
 
     is_playing = True
